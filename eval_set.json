@@ -1,0 +1,68 @@
+[
+  {
+    "question": "What percentage of the grade is the Deep Learning final exam worth?",
+    "expected_answer": "35%",
+    "expected_sources": [{"file": "deep_learning_notes.pdf", "page": 1}]
+  },
+  {
+    "question": "What is the late submission policy for Deep Learning assignments?",
+    "expected_answer": "Lose 10% per day late; not accepted after 3 days",
+    "expected_sources": [{"file": "deep_learning_notes.pdf", "page": 1}]
+  },
+  {
+    "question": "What is the LR halving rule?",
+    "expected_answer": "If validation loss rises for 3 consecutive epochs, halve the LR; stop after 4 halvings",
+    "expected_sources": [{"file": "deep_learning_notes.pdf", "page": 3}]
+  },
+  {
+    "question": "What are the three gates of an LSTM and what does each one do?",
+    "expected_answer": "Forget (what to erase), input (what to store), output (what to expose as hidden state)",
+    "expected_sources": [{"file": "deep_learning_notes.pdf", "page": 5}]
+  },
+  {
+    "question": "What is the difference between stemming and lemmatization?",
+    "expected_answer": "Stemming chops endings with rules (\"studi\"); lemmatization returns the dictionary form (\"study\"), slower but more accurate",
+    "expected_sources": [{"file": "nlp_notes.pdf", "page": 2}]
+  },
+  {
+    "question": "Why are attention scores divided by sqrt(d_k)?",
+    "expected_answer": "To keep the attention values stable before softmax",
+    "expected_sources": [{"file": "nlp_notes.pdf", "page": 4}]
+  },
+  {
+    "question": "Which metrics must the NLP semester project report?",
+    "expected_answer": "Precision, recall and F1-score (accuracy alone loses 5 marks)",
+    "expected_sources": [{"file": "nlp_notes.pdf", "page": 1}]
+  },
+  {
+    "question": "Why is Roman Urdu difficult to process?",
+    "expected_answer": "No standard spelling (acha / achha / accha); fixed with normalization dictionaries or character/subword models",
+    "expected_sources": [{"file": "nlp_notes.pdf", "page": 2}]
+  },
+  {
+    "question": "What does Assignment 2 require?",
+    "expected_answer": "Ambiguous: DL requires dropout of exactly 0.3 (p. 4); NLP requires skip-gram, window 5, 100-dim vectors (p. 3)",
+    "expected_sources": [
+      {"file": "deep_learning_notes.pdf", "page": 4},
+      {"file": "nlp_notes.pdf", "page": 3}
+    ]
+  },
+  {
+    "question": "What is attention?",
+    "expected_answer": "DL: an add-on to RNN encoder-decoders (p. 5). NLP: self-attention in transformers (p. 4)",
+    "expected_sources": [
+      {"file": "deep_learning_notes.pdf", "page": 5},
+      {"file": "nlp_notes.pdf", "page": 4}
+    ]
+  },
+  {
+    "question": "When is the NLP project proposal due?",
+    "expected_answer": "Week 6",
+    "expected_sources": [{"file": "nlp_notes.pdf", "page": 1}]
+  },
+  {
+    "question": "Who teaches the Deep Learning course?",
+    "expected_answer": "Not in the notes: the system should say it couldn't find it",
+    "expected_sources": []
+  }
+]

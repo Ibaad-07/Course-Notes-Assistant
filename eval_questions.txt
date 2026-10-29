@@ -1,0 +1,12 @@
+What percentage of the grade is the Deep Learning final exam worth?
+What is the late submission policy for Deep Learning assignments?
+What is the LR halving rule?
+What are the three gates of an LSTM and what does each one do?
+What is the difference between stemming and lemmatization?
+Why are attention scores divided by sqrt(d_k)?
+Which metrics must the NLP semester project report?
+Why is Roman Urdu difficult to process?
+What does Assignment 2 require?
+What is attention?
+When is the NLP project proposal due?
+Who teaches the Deep Learning course?

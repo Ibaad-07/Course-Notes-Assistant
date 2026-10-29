@@ -1,0 +1,6 @@
+# Normalise line endings for text files
+* text=auto
+
+# Never touch line endings in binary documents (it would corrupt them)
+*.pdf binary
+*.pptx binary

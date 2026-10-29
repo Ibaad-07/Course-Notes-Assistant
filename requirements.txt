@@ -1,0 +1,6 @@
+pypdf
+python-pptx
+qdrant-client>=1.10
+sentence-transformers
+ollama>=0.4
+streamlit

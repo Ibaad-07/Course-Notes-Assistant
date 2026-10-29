@@ -1,0 +1,11 @@
+# The vector index is rebuilt from notes/ by `python index.py`
+qdrant_db/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local tool settings
+.claude/
