@@ -1,4 +1,4 @@
-# Course Notes Assistant (RAG Level 2)
+# Course Notes Assistant 
 
 Ask questions across all your lecture slides and notes. Answers cite the file
 and page they came from, and you can limit a question to one course.
